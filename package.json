@@ -1,0 +1,11 @@
+{
+  "name": "musiclab",
+  "version": "0.0.1",
+  "description": "musiclab",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "MIT"
+}
