@@ -1,0 +1,38 @@
+{
+  "source": {
+    "include": ["./src", "./index.js"]
+  },
+  "opts": {
+    "destination": "./docs",
+    "template": "../neurons.me/src/assets/better-docs"
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "search": true,
+    "default": {
+        "staticFiles": {
+          "include": [
+              "./README.md"
+          ]
+        }
+    },
+    "better-docs": {
+        "name": "docs.i.mLearning",
+        "title": "docs.i.mLearning", 
+        "css": "style.css",
+        "trackingCode": "-",
+  "hideGenerator": false,
+        "navLinks": [
+            {
+                "label": "Github",
+                "href": "https://github.com/suiGn/i.mlearning"
+            },
+            {
+                "label": "App",
+                "href": "https://mlearning.studio"
+            }
+        ]
+    }
+}
+}
